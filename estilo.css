@@ -1,0 +1,10 @@
+body {
+    text-align: center;
+    padding-top: 50px;
+    font-family: Arial, sans-serif;
+}
+
+#contador {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
