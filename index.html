@@ -2,15 +2,20 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Contador de Visitas</title>
+    <title>Vista Previa de Enlace</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
 
-<h1>Visitas:</h1>
-<span id="contador">0</span>
+<a href="#" class="enlace-con-vista-previa" data-url="https://example.com">Ejemplo de Enlace</a>
 
-<script src="contador.js"></script>
+<div id="vista-previa" class="oculto">
+    <p><strong>Título:</strong> Ejemplo de Enlace</p>
+    <p><strong>Descripción:</strong> Este es un enlace de ejemplo.</p>
+    <p><strong>URL:</strong> https://example.com</p>
+</div>
+
+<script src="funciones.js"></script>
 
 </body>
 </html>
